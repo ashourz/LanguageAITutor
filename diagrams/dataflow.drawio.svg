@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+  width="1110px" height="530px" viewBox="-0.5 -0.5 1110 530">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#90a4ae"/>
+    </marker>
+    <marker id="arrRed" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#e57373"/>
+    </marker>
+    <marker id="arrDash" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#78909c"/>
+    </marker>
+  </defs>
+  <g>
+    <!-- ── Column labels ── -->
+    <text x="100" y="16" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#78909c" text-anchor="middle" font-style="italic">Android Client</text>
+    <text x="340" y="16" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#78909c" text-anchor="middle" font-style="italic">FastAPI Server</text>
+    <text x="740" y="16" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#78909c" text-anchor="middle" font-style="italic">Tutor Pipeline (inside lock)</text>
+
+    <!-- ── Participant boxes ── -->
+    <!-- User -->
+    <rect x="20" y="30" width="160" height="36" rx="6" ry="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+    <text x="100" y="53" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#0d47a1" text-anchor="middle">User (Android)</text>
+
+    <!-- SpeechRecognizer -->
+    <rect x="20" y="95" width="160" height="36" rx="6" ry="6" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5"/>
+    <text x="100" y="118" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#0d47a1" text-anchor="middle">SpeechRecognizer</text>
+
+    <!-- ViewModel -->
+    <rect x="20" y="160" width="160" height="36" rx="6" ry="6" fill="#90caf9" stroke="#1565c0" stroke-width="2"/>
+    <text x="100" y="183" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#0d47a1" text-anchor="middle">ViewModel</text>
+
+    <!-- Render response -->
+    <rect x="20" y="225" width="160" height="36" rx="6" ry="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+    <text x="100" y="248" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#0d47a1" text-anchor="middle">Render response</text>
+
+    <!-- API -->
+    <rect x="260" y="160" width="160" height="36" rx="6" ry="6" fill="#ffe0b2" stroke="#e65100" stroke-width="1.5"/>
+    <text x="340" y="183" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#bf360c" text-anchor="middle">FastAPI /chat</text>
+
+    <!-- ── Forward flow arrows ── -->
+    <!-- User → SR -->
+    <line x1="100" y1="66" x2="100" y2="93" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+    <text x="108" y="84" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#78909c">tap mic → speak (ml-IN)</text>
+
+    <!-- SR → VM -->
+    <line x1="100" y1="131" x2="100" y2="158" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+    <text x="108" y="149" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#78909c">N-best → PostProcessor</text>
+
+    <!-- VM → API (request) -->
+    <line x1="180" y1="170" x2="258" y2="170" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+    <text x="220" y="164" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#78909c" text-anchor="middle">POST /chat</text>
+
+    <!-- API → pipeline (enters at left side of lock region, with gap) -->
+    <line x1="420" y1="178" x2="450" y2="178" stroke="#90a4ae" stroke-width="1.5"/>
+    <line x1="450" y1="178" x2="450" y2="80" stroke="#90a4ae" stroke-width="1.5"/>
+    <line x1="450" y1="80" x2="470" y2="80" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+
+    <!-- ── Pipeline (lock region) — inset 10px from arrows ── -->
+    <rect x="455" y="40" width="640" height="350" rx="10" ry="10" fill="none" stroke="#b0bec5" stroke-width="1" stroke-dasharray="6,4"/>
+    <text x="466" y="57" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#b0bec5" font-style="italic">Lock acquired</text>
+
+    <!-- Step 1: get_current_state -->
+    <rect x="475" y="68" width="190" height="40" rx="6" ry="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+    <text x="570" y="85" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#1b5e20" text-anchor="middle">get_current_state()</text>
+    <text x="570" y="99" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#2e7d32" text-anchor="middle">lesson, immersion, known_words</text>
+
+    <line x1="570" y1="108" x2="570" y2="120" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+
+    <!-- Step 2: FTS5 search -->
+    <rect x="475" y="122" width="190" height="40" rx="6" ry="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+    <text x="570" y="139" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#1b5e20" text-anchor="middle">FTS5 BM25 search (3× top-k)</text>
+    <text x="570" y="153" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#2e7d32" text-anchor="middle">ranked chunks</text>
+
+    <line x1="570" y1="162" x2="570" y2="175" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+
+    <!-- Step 3: Strip unknown -->
+    <rect x="475" y="177" width="190" height="34" rx="6" ry="6" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="1.5"/>
+    <text x="570" y="199" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#4a148c" text-anchor="middle">Strip unknown Malayalam → [ML]</text>
+
+    <line x1="570" y1="211" x2="570" y2="224" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+
+    <!-- Step 4: Build prompt -->
+    <rect x="475" y="226" width="190" height="34" rx="6" ry="6" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="1.5"/>
+    <text x="570" y="248" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#4a148c" text-anchor="middle">build_system_prompt()</text>
+
+    <line x1="570" y1="260" x2="570" y2="273" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+
+    <!-- Step 5: LLM call -->
+    <rect x="475" y="275" width="190" height="34" rx="6" ry="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+    <text x="570" y="297" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#1b5e20" text-anchor="middle">Ollama chat(messages)</text>
+
+    <line x1="570" y1="309" x2="570" y2="322" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+
+    <!-- Step 6: Validate (diamond) -->
+    <polygon points="570,324 620,349 570,374 520,349" fill="#fff3e0" stroke="#e65100" stroke-width="1.5"/>
+    <text x="570" y="346" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#bf360c" text-anchor="middle">validate</text>
+    <text x="570" y="358" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#bf360c" text-anchor="middle">response</text>
+
+    <!-- Retry path (diamond right → retry box → loop up to LLM) -->
+    <line x1="620" y1="349" x2="700" y2="349" stroke="#e57373" stroke-width="1.5"/>
+    <text x="660" y="342" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#e57373">violations</text>
+    <rect x="700" y="332" width="100" height="34" rx="6" ry="6" fill="#ffebee" stroke="#e57373" stroke-width="1.5"/>
+    <text x="750" y="354" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#c62828" text-anchor="middle">Retry (up to 2×)</text>
+    <line x1="750" y1="332" x2="750" y2="292" stroke="#e57373" stroke-width="1.5"/>
+    <line x1="750" y1="292" x2="667" y2="292" stroke="#e57373" stroke-width="1.5" marker-end="url(#arrRed)"/>
+
+    <!-- Valid path (diamond left → down → across to save_turn) -->
+    <line x1="520" y1="349" x2="475" y2="349" stroke="#90a4ae" stroke-width="1.5"/>
+    <text x="488" y="342" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#2e7d32">valid</text>
+    <line x1="475" y1="349" x2="475" y2="375" stroke="#90a4ae" stroke-width="1.5"/>
+    <line x1="475" y1="375" x2="880" y2="375" stroke="#90a4ae" stroke-width="1.5"/>
+    <line x1="880" y1="375" x2="880" y2="108" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+
+    <!-- Step 7: Save turn (right column inside lock) -->
+    <rect x="820" y="68" width="180" height="40" rx="6" ry="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+    <text x="910" y="85" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#1b5e20" text-anchor="middle">save_turn()</text>
+    <text x="910" y="99" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#2e7d32" text-anchor="middle">user_msg, assistant_msg</text>
+
+    <!-- ── Response path (save_turn → out of lock → API → VM → Render) ── -->
+    <!-- save_turn right → outside lock → up → left across top → down to API -->
+    <line x1="1000" y1="88" x2="1100" y2="88" stroke="#78909c" stroke-width="1.5" stroke-dasharray="6,3"/>
+    <line x1="1100" y1="88" x2="1100" y2="25" stroke="#78909c" stroke-width="1.5" stroke-dasharray="6,3"/>
+    <line x1="1100" y1="25" x2="340" y2="25" stroke="#78909c" stroke-width="1.5" stroke-dasharray="6,3"/>
+    <line x1="340" y1="25" x2="340" y2="158" stroke="#78909c" stroke-width="1.5" stroke-dasharray="6,3" marker-end="url(#arrDash)"/>
+    <text x="540" y="20" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#78909c" text-anchor="middle">response returned</text>
+
+    <!-- API → VM (response) -->
+    <line x1="260" y1="190" x2="182" y2="190" stroke="#78909c" stroke-width="1.5" stroke-dasharray="6,3" marker-end="url(#arrDash)"/>
+    <text x="220" y="203" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#78909c" text-anchor="middle">{ reply, lesson, immersion }</text>
+
+    <!-- VM → Render -->
+    <line x1="100" y1="196" x2="100" y2="223" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+
+    <!-- ── Background section ── -->
+    <rect x="455" y="420" width="640" height="90" rx="10" ry="10" fill="none" stroke="#b0bec5" stroke-width="1" stroke-dasharray="6,4"/>
+    <text x="466" y="438" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#b0bec5" font-style="italic">Background (off response path)</text>
+
+    <rect x="475" y="450" width="155" height="40" rx="6" ry="6" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="1.5"/>
+    <text x="552" y="475" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#4a148c" text-anchor="middle">evaluate_response()</text>
+
+    <line x1="630" y1="470" x2="650" y2="470" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+
+    <rect x="652" y="450" width="155" height="40" rx="6" ry="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+    <text x="729" y="466" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#1b5e20" text-anchor="middle">update mastery</text>
+    <text x="729" y="480" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#2e7d32" text-anchor="middle">adjust_immersion()</text>
+
+    <line x1="807" y1="470" x2="827" y2="470" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+
+    <rect x="829" y="450" width="155" height="40" rx="6" ry="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+    <text x="906" y="466" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#1b5e20" text-anchor="middle">check_lesson_advance</text>
+    <text x="906" y="480" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#2e7d32" text-anchor="middle">streak, coverage</text>
+  </g>
+</svg>
