@@ -13,6 +13,7 @@
       <path d="M0,0 L8,3 L0,6" fill="#e57373"/>
     </marker>
   </defs>
+  <rect x="-0.5" y="-0.5" width="820" height="540" fill="#ffffff"/>
   <g>
     <!-- ════════ Lesson N container ════════ -->
     <rect x="30" y="50" width="420" height="460" rx="12" ry="12" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>

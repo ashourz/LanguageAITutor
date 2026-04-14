@@ -22,6 +22,7 @@
       <path d="M0,0 L8,3 L0,6" fill="#2e7d32"/>
     </marker>
   </defs>
+  <rect x="-0.5" y="-0.5" width="920" height="380" fill="#ffffff"/>
   <g>
     <!-- ═══════════════ Android Client ═══════════════ -->
     <rect x="0" y="0" width="195" height="370" rx="12" ry="12" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>

@@ -13,6 +13,7 @@
       <path d="M0,0 L8,3 L0,6" fill="#78909c"/>
     </marker>
   </defs>
+  <rect x="-0.5" y="-0.5" width="1110" height="530" fill="#ffffff"/>
   <g>
     <!-- ── Column labels ── -->
     <text x="100" y="16" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#78909c" text-anchor="middle" font-style="italic">Android Client</text>
