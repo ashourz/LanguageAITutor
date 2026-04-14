@@ -4,7 +4,7 @@
   width="820px" height="540px" viewBox="-0.5 -0.5 820 540">
   <defs>
     <marker id="arr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-      <path d="M0,0 L8,3 L0,6" fill="#90a4ae"/>
+      <path d="M0,0 L8,3 L0,6" fill="#607d8b"/>
     </marker>
     <marker id="arrGreen" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
       <path d="M0,0 L8,3 L0,6" fill="#2e7d32"/>
@@ -16,35 +16,35 @@
   <rect x="-0.5" y="-0.5" width="820" height="540" fill="#ffffff"/>
   <g>
     <!-- ════════ Lesson N container ════════ -->
-    <rect x="30" y="50" width="420" height="460" rx="12" ry="12" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
-    <text x="240" y="72" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#1565c0" text-anchor="middle">Lesson N</text>
-    <text x="240" y="88" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#42a5f5" text-anchor="middle">Start immersion: 20 %</text>
+    <rect x="30" y="50" width="420" height="460" rx="12" ry="12" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+    <text x="240" y="72" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Lesson N</text>
+    <text x="240" y="88" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle">Start immersion: 20 %</text>
 
     <!-- Conversing state (pill) -->
-    <rect x="150" y="108" width="180" height="40" rx="20" ry="20" fill="#90caf9" stroke="#1565c0" stroke-width="2"/>
-    <text x="240" y="134" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#0d47a1" text-anchor="middle">Conversing</text>
+    <rect x="150" y="108" width="180" height="40" rx="20" ry="20" fill="#ffffff" stroke="#1565c0" stroke-width="2"/>
+    <text x="240" y="134" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">Conversing</text>
 
     <!-- ── Evaluation fork ── -->
-    <line x1="240" y1="148" x2="240" y2="170" stroke="#90a4ae" stroke-width="1.5"/>
-    <text x="226" y="163" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#78909c" text-anchor="end">evaluate</text>
+    <line x1="240" y1="148" x2="240" y2="170" stroke="#607d8b" stroke-width="1.5"/>
+    <text x="226" y="163" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#000000" text-anchor="end">evaluate</text>
 
     <!-- Correct branch (left) -->
     <line x1="240" y1="170" x2="140" y2="170" stroke="#2e7d32" stroke-width="1.5"/>
     <line x1="140" y1="170" x2="140" y2="195" stroke="#2e7d32" stroke-width="1.5" marker-end="url(#arrGreen)"/>
-    <text x="126" y="186" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#2e7d32" text-anchor="end">correct</text>
+    <text x="126" y="186" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#000000" text-anchor="end">correct</text>
 
-    <rect x="60" y="197" width="160" height="36" rx="6" ry="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
-    <text x="140" y="213" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#1b5e20" text-anchor="middle">+2 % immersion</text>
-    <text x="140" y="227" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#2e7d32" text-anchor="middle">streak += 1</text>
+    <rect x="60" y="197" width="160" height="36" rx="6" ry="6" fill="#ffffff" stroke="#2e7d32" stroke-width="1.5"/>
+    <text x="140" y="213" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#000000" text-anchor="middle">+2 % immersion</text>
+    <text x="140" y="227" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#000000" text-anchor="middle">streak += 1</text>
 
     <!-- Incorrect branch (right) -->
     <line x1="240" y1="170" x2="340" y2="170" stroke="#e57373" stroke-width="1.5"/>
     <line x1="340" y1="170" x2="340" y2="195" stroke="#e57373" stroke-width="1.5" marker-end="url(#arrRed)"/>
-    <text x="354" y="186" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#c62828">incorrect</text>
+    <text x="354" y="186" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#000000">incorrect</text>
 
-    <rect x="260" y="197" width="160" height="36" rx="6" ry="6" fill="#ffebee" stroke="#e57373" stroke-width="1.5"/>
-    <text x="340" y="213" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#c62828" text-anchor="middle">−5 % immersion</text>
-    <text x="340" y="227" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#c62828" text-anchor="middle">streak = 0</text>
+    <rect x="260" y="197" width="160" height="36" rx="6" ry="6" fill="#ffffff" stroke="#e57373" stroke-width="1.5"/>
+    <text x="340" y="213" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#000000" text-anchor="middle">−5 % immersion</text>
+    <text x="340" y="227" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#000000" text-anchor="middle">streak = 0</text>
 
     <!-- Incorrect → loop back to Conversing (right side of box → right rail) -->
     <line x1="420" y1="215" x2="430" y2="215" stroke="#e57373" stroke-width="1.5"/>
@@ -52,49 +52,49 @@
     <line x1="430" y1="128" x2="332" y2="128" stroke="#e57373" stroke-width="1.5" marker-end="url(#arrRed)"/>
 
     <!-- Correct → Streak diamond -->
-    <line x1="140" y1="233" x2="140" y2="268" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+    <line x1="140" y1="233" x2="140" y2="268" stroke="#607d8b" stroke-width="1.5" marker-end="url(#arr)"/>
 
-    <polygon points="140,270 190,300 140,330 90,300" fill="#fff3e0" stroke="#e65100" stroke-width="1.5"/>
-    <text x="140" y="296" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#bf360c" text-anchor="middle">streak</text>
-    <text x="140" y="309" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#bf360c" text-anchor="middle">≥ 3 ?</text>
+    <polygon points="140,270 190,300 140,330 90,300" fill="#ffffff" stroke="#e65100" stroke-width="1.5"/>
+    <text x="140" y="296" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle">streak</text>
+    <text x="140" y="309" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle">≥ 3 ?</text>
 
     <!-- Streak < 3 → back to Conversing (left rail) -->
-    <line x1="90" y1="300" x2="55" y2="300" stroke="#90a4ae" stroke-width="1.5"/>
-    <line x1="55" y1="300" x2="55" y2="128" stroke="#90a4ae" stroke-width="1.5"/>
-    <line x1="55" y1="128" x2="148" y2="128" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
-    <text x="68" y="280" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#78909c">no</text>
+    <line x1="90" y1="300" x2="55" y2="300" stroke="#607d8b" stroke-width="1.5"/>
+    <line x1="55" y1="300" x2="55" y2="128" stroke="#607d8b" stroke-width="1.5"/>
+    <line x1="55" y1="128" x2="148" y2="128" stroke="#607d8b" stroke-width="1.5" marker-end="url(#arr)"/>
+    <text x="68" y="280" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#000000">no</text>
 
     <!-- Streak ≥ 3 → Advance Gate -->
-    <line x1="140" y1="330" x2="140" y2="360" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
-    <text x="155" y="350" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#78909c">yes</text>
+    <line x1="140" y1="330" x2="140" y2="360" stroke="#607d8b" stroke-width="1.5" marker-end="url(#arr)"/>
+    <text x="155" y="350" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#000000">yes</text>
 
     <!-- ── Advance Gate sub-region ── -->
-    <rect x="55" y="362" width="370" height="130" rx="10" ry="10" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="1.5"/>
-    <text x="240" y="384" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#6a1b9a" text-anchor="middle">Advance Gate</text>
+    <rect x="55" y="362" width="370" height="130" rx="10" ry="10" fill="#e1bee7" stroke="#6a1b9a" stroke-width="1.5"/>
+    <text x="240" y="384" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">Advance Gate</text>
 
     <!-- Conditions list -->
-    <text x="240" y="404" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#4a148c" text-anchor="middle">confidence ≥ 0.75 for 3 consecutive turns</text>
-    <text x="240" y="418" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#4a148c" text-anchor="middle">vocab coverage ≥ 70 %</text>
-    <text x="240" y="432" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#4a148c" text-anchor="middle">no unintroduced words remain</text>
+    <text x="240" y="404" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle">confidence ≥ 0.75 for 3 consecutive turns</text>
+    <text x="240" y="418" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle">vocab coverage ≥ 70 %</text>
+    <text x="240" y="432" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle">no unintroduced words remain</text>
 
     <!-- Gate diamond -->
-    <polygon points="240,442 275,460 240,478 205,460" fill="#e1bee7" stroke="#6a1b9a" stroke-width="1.5"/>
-    <text x="240" y="464" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#4a148c" text-anchor="middle">pass?</text>
+    <polygon points="240,442 275,460 240,478 205,460" fill="#ffffff" stroke="#6a1b9a" stroke-width="1.5"/>
+    <text x="240" y="464" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#000000" text-anchor="middle">pass?</text>
 
     <!-- Blocked → back to Conversing (straight left then up) -->
     <line x1="205" y1="460" x2="40" y2="460" stroke="#e57373" stroke-width="1.5"/>
-    <text x="126" y="454" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#c62828" text-anchor="middle">no</text>
+    <text x="126" y="454" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#000000" text-anchor="middle">no</text>
     <line x1="40" y1="460" x2="40" y2="128" stroke="#e57373" stroke-width="1.5"/>
     <line x1="40" y1="128" x2="148" y2="128" stroke="#e57373" stroke-width="1.5" marker-end="url(#arrRed)"/>
 
     <!-- Pass → right, out of Lesson N ─────────────────────── -->
     <line x1="275" y1="460" x2="500" y2="460" stroke="#2e7d32" stroke-width="2" marker-end="url(#arrGreen)"/>
-    <text x="388" y="448" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#2e7d32" text-anchor="middle">advance →</text>
+    <text x="388" y="448" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="middle">advance →</text>
 
     <!-- ════════ Lesson N+1 container ════════ -->
-    <rect x="500" y="50" width="290" height="460" rx="12" ry="12" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
-    <text x="645" y="72" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#2e7d32" text-anchor="middle">Lesson N + 1</text>
-    <text x="645" y="88" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#43a047" text-anchor="middle">Immersion carries over</text>
+    <rect x="500" y="50" width="290" height="460" rx="12" ry="12" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2"/>
+    <text x="645" y="72" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">Lesson N + 1</text>
+    <text x="645" y="88" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle">Immersion carries over</text>
 
     <!-- Entry route: arrow enters at left edge, goes up, then right into first step -->
     <line x1="500" y1="460" x2="520" y2="460" stroke="#2e7d32" stroke-width="1.5"/>
@@ -102,29 +102,29 @@
     <line x1="520" y1="130" x2="555" y2="130" stroke="#2e7d32" stroke-width="1.5" marker-end="url(#arrGreen)"/>
 
     <!-- Step 1: Reset streak -->
-    <rect x="557" y="112" width="178" height="36" rx="6" ry="6" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5"/>
-    <text x="646" y="135" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#1b5e20" text-anchor="middle">Reset streak = 0</text>
+    <rect x="557" y="112" width="178" height="36" rx="6" ry="6" fill="#ffffff" stroke="#2e7d32" stroke-width="1.5"/>
+    <text x="646" y="135" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#000000" text-anchor="middle">Reset streak = 0</text>
 
-    <line x1="646" y1="148" x2="646" y2="172" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+    <line x1="646" y1="148" x2="646" y2="172" stroke="#607d8b" stroke-width="1.5" marker-end="url(#arr)"/>
 
     <!-- Step 2: Load vocab -->
-    <rect x="557" y="174" width="178" height="36" rx="6" ry="6" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5"/>
-    <text x="646" y="197" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#1b5e20" text-anchor="middle">Load lesson vocabulary</text>
+    <rect x="557" y="174" width="178" height="36" rx="6" ry="6" fill="#ffffff" stroke="#2e7d32" stroke-width="1.5"/>
+    <text x="646" y="197" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#000000" text-anchor="middle">Load lesson vocabulary</text>
 
-    <line x1="646" y1="210" x2="646" y2="234" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+    <line x1="646" y1="210" x2="646" y2="234" stroke="#607d8b" stroke-width="1.5" marker-end="url(#arr)"/>
 
     <!-- Step 3: Set immersion floor -->
-    <rect x="557" y="236" width="178" height="36" rx="6" ry="6" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5"/>
-    <text x="646" y="259" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#1b5e20" text-anchor="middle">Clamp immersion ≥ 20 %</text>
+    <rect x="557" y="236" width="178" height="36" rx="6" ry="6" fill="#ffffff" stroke="#2e7d32" stroke-width="1.5"/>
+    <text x="646" y="259" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#000000" text-anchor="middle">Clamp immersion ≥ 20 %</text>
 
-    <line x1="646" y1="272" x2="646" y2="296" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arr)"/>
+    <line x1="646" y1="272" x2="646" y2="296" stroke="#607d8b" stroke-width="1.5" marker-end="url(#arr)"/>
 
     <!-- Conversing state (pill, green) -->
-    <rect x="557" y="298" width="178" height="42" rx="21" ry="21" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2"/>
-    <text x="646" y="325" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#1b5e20" text-anchor="middle">Conversing</text>
+    <rect x="557" y="298" width="178" height="42" rx="21" ry="21" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+    <text x="646" y="325" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">Conversing</text>
 
     <!-- Cycle annotation -->
-    <text x="646" y="370" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#78909c" text-anchor="middle" font-style="italic">This lesson becomes the new N;</text>
-    <text x="646" y="386" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#78909c" text-anchor="middle" font-style="italic">the cycle repeats.</text>
+    <text x="646" y="370" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle" font-style="italic">This lesson becomes the new N;</text>
+    <text x="646" y="386" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle" font-style="italic">the cycle repeats.</text>
   </g>
 </svg>

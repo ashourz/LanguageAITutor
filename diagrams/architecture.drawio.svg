@@ -10,10 +10,10 @@
       <path d="M0,0 L8,3 L0,6" fill="#e65100"/>
     </marker>
     <marker id="arrowGray" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-      <path d="M0,0 L8,3 L0,6" fill="#90a4ae"/>
+      <path d="M0,0 L8,3 L0,6" fill="#607d8b"/>
     </marker>
     <marker id="arrowGrayRev" markerWidth="8" markerHeight="6" refX="0" refY="3" orient="auto">
-      <path d="M8,0 L0,3 L8,6" fill="#90a4ae"/>
+      <path d="M8,0 L0,3 L8,6" fill="#607d8b"/>
     </marker>
     <marker id="arrowPurple" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
       <path d="M0,0 L8,3 L0,6" fill="#6a1b9a"/>
@@ -25,119 +25,119 @@
   <rect x="-0.5" y="-0.5" width="920" height="380" fill="#ffffff"/>
   <g>
     <!-- ═══════════════ Android Client ═══════════════ -->
-    <rect x="0" y="0" width="195" height="370" rx="12" ry="12" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
-    <text x="97" y="22" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#1565c0" text-anchor="middle">Android Client</text>
-    <text x="97" y="36" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#1565c0" text-anchor="middle">Kotlin / Compose</text>
+    <rect x="0" y="0" width="195" height="370" rx="12" ry="12" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+    <text x="97" y="22" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">Android Client</text>
+    <text x="97" y="36" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle">Kotlin / Compose</text>
 
     <!-- SpeechRecognizer -->
-    <rect x="15" y="50" width="165" height="40" rx="6" ry="6" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5"/>
-    <text x="97" y="66" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#0d47a1" text-anchor="middle">SpeechRecognizer</text>
-    <text x="97" y="80" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#1565c0" text-anchor="middle">ml-IN locale</text>
+    <rect x="15" y="50" width="165" height="40" rx="6" ry="6" fill="#ffffff" stroke="#1565c0" stroke-width="1.5"/>
+    <text x="97" y="66" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#000000" text-anchor="middle">SpeechRecognizer</text>
+    <text x="97" y="80" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#000000" text-anchor="middle">ml-IN locale</text>
 
     <line x1="97" y1="90" x2="97" y2="105" stroke="#1565c0" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
 
     <!-- SpeechPostProcessor -->
-    <rect x="15" y="105" width="165" height="34" rx="6" ry="6" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5"/>
-    <text x="97" y="127" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#0d47a1" text-anchor="middle">SpeechPostProcessor</text>
+    <rect x="15" y="105" width="165" height="34" rx="6" ry="6" fill="#ffffff" stroke="#1565c0" stroke-width="1.5"/>
+    <text x="97" y="127" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#000000" text-anchor="middle">SpeechPostProcessor</text>
 
     <line x1="97" y1="139" x2="97" y2="158" stroke="#1565c0" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
 
     <!-- TutorViewModel (highlighted) -->
-    <rect x="15" y="158" width="165" height="34" rx="6" ry="6" fill="#90caf9" stroke="#1565c0" stroke-width="2"/>
-    <text x="97" y="180" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#0d47a1" text-anchor="middle">TutorViewModel</text>
+    <rect x="15" y="158" width="165" height="34" rx="6" ry="6" fill="#ffffff" stroke="#1565c0" stroke-width="2"/>
+    <text x="97" y="180" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">TutorViewModel</text>
 
     <!-- Split down to UI and TTS -->
     <line x1="60" y1="192" x2="60" y2="212" stroke="#1565c0" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
     <line x1="135" y1="192" x2="135" y2="212" stroke="#1565c0" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
 
     <!-- ChatScreen / SettingsScreen -->
-    <rect x="10" y="212" width="95" height="44" rx="6" ry="6" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5"/>
-    <text x="57" y="230" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#0d47a1" text-anchor="middle">ChatScreen</text>
-    <text x="57" y="246" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#0d47a1" text-anchor="middle">SettingsScreen</text>
+    <rect x="10" y="212" width="95" height="44" rx="6" ry="6" fill="#ffffff" stroke="#1565c0" stroke-width="1.5"/>
+    <text x="57" y="230" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle">ChatScreen</text>
+    <text x="57" y="246" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle">SettingsScreen</text>
 
     <!-- TTS Playback -->
-    <rect x="112" y="212" width="73" height="44" rx="6" ry="6" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5"/>
-    <text x="148" y="239" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#0d47a1" text-anchor="middle">TTS</text>
+    <rect x="112" y="212" width="73" height="44" rx="6" ry="6" fill="#ffffff" stroke="#1565c0" stroke-width="1.5"/>
+    <text x="148" y="239" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle">TTS</text>
 
     <!-- ═══════════════ FastAPI Server ═══════════════ -->
-    <rect x="235" y="0" width="195" height="370" rx="12" ry="12" fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
-    <text x="332" y="22" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#e65100" text-anchor="middle">FastAPI Server</text>
-    <text x="332" y="36" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#e65100" text-anchor="middle">Python</text>
+    <rect x="235" y="0" width="195" height="370" rx="12" ry="12" fill="#ffe0b2" stroke="#e65100" stroke-width="2"/>
+    <text x="332" y="22" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">FastAPI Server</text>
+    <text x="332" y="36" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle">Python</text>
 
     <!-- REST endpoints (aligned with TutorViewModel y=158) -->
-    <rect x="255" y="155" width="155" height="44" rx="6" ry="6" fill="#ffe0b2" stroke="#e65100" stroke-width="1.5"/>
-    <text x="332" y="173" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#bf360c" text-anchor="middle">/chat · /status · /ingest</text>
-    <text x="332" y="189" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#e65100" text-anchor="middle">REST endpoints</text>
+    <rect x="255" y="155" width="155" height="44" rx="6" ry="6" fill="#ffffff" stroke="#e65100" stroke-width="1.5"/>
+    <text x="332" y="173" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#000000" text-anchor="middle">/chat · /status · /ingest</text>
+    <text x="332" y="189" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle">REST endpoints</text>
 
     <line x1="332" y1="199" x2="332" y2="218" stroke="#e65100" stroke-width="1.5" marker-end="url(#arrowOrange)"/>
 
     <!-- Thread Lock -->
-    <rect x="255" y="218" width="155" height="44" rx="6" ry="6" fill="#ffe0b2" stroke="#e65100" stroke-width="1.5"/>
-    <text x="332" y="236" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#bf360c" text-anchor="middle">Thread Lock +</text>
-    <text x="332" y="252" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#bf360c" text-anchor="middle">ThreadPoolExecutor</text>
+    <rect x="255" y="218" width="155" height="44" rx="6" ry="6" fill="#ffffff" stroke="#e65100" stroke-width="1.5"/>
+    <text x="332" y="236" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#000000" text-anchor="middle">Thread Lock +</text>
+    <text x="332" y="252" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#000000" text-anchor="middle">ThreadPoolExecutor</text>
 
     <!-- ═══════════════ VM ↔ API arrow ═══════════════ -->
-    <line x1="180" y1="175" x2="253" y2="175" stroke="#90a4ae" stroke-width="1.5" marker-start="url(#arrowGrayRev)" marker-end="url(#arrowGray)"/>
-    <text x="216" y="168" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#78909c" text-anchor="middle">HTTP</text>
+    <line x1="180" y1="175" x2="253" y2="175" stroke="#607d8b" stroke-width="1.5" marker-start="url(#arrowGrayRev)" marker-end="url(#arrowGray)"/>
+    <text x="216" y="168" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#000000" text-anchor="middle">HTTP</text>
 
     <!-- ═══════════════ LOCK → Tutor (single arrow) ═══════════════ -->
-    <line x1="430" y1="240" x2="468" y2="240" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arrowGray)"/>
-    <text x="449" y="233" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#78909c" text-anchor="middle">calls</text>
+    <line x1="430" y1="240" x2="468" y2="240" stroke="#607d8b" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+    <text x="449" y="233" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#000000" text-anchor="middle">calls</text>
 
     <!-- ═══════════════ Tutor Package ═══════════════ -->
-    <rect x="470" y="0" width="220" height="370" rx="12" ry="12" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="2"/>
-    <text x="580" y="22" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#6a1b9a" text-anchor="middle">Tutor Package</text>
-    <text x="580" y="36" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#6a1b9a" text-anchor="middle">Domain Logic</text>
+    <rect x="470" y="0" width="220" height="370" rx="12" ry="12" fill="#e1bee7" stroke="#6a1b9a" stroke-width="2"/>
+    <text x="580" y="22" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">Tutor Package</text>
+    <text x="580" y="36" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle">Domain Logic</text>
 
     <!-- main.py orchestrator (highlighted) -->
-    <rect x="490" y="50" width="180" height="30" rx="5" ry="5" fill="#ce93d8" stroke="#6a1b9a" stroke-width="1.5"/>
-    <text x="580" y="70" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#4a148c" text-anchor="middle">main.py (orchestrator)</text>
+    <rect x="490" y="50" width="180" height="30" rx="5" ry="5" fill="#ffffff" stroke="#6a1b9a" stroke-width="1.5"/>
+    <text x="580" y="70" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">main.py (orchestrator)</text>
 
     <!-- Arrow main → modules -->
     <line x1="580" y1="80" x2="580" y2="93" stroke="#6a1b9a" stroke-width="1.2" marker-end="url(#arrowPurple)"/>
 
     <!-- Module list -->
-    <rect x="490" y="93" width="180" height="30" rx="5" ry="5" fill="#e1bee7" stroke="#6a1b9a" stroke-width="1"/>
-    <text x="580" y="113" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#4a148c" text-anchor="middle">curriculum.py</text>
+    <rect x="490" y="93" width="180" height="30" rx="5" ry="5" fill="#ffffff" stroke="#6a1b9a" stroke-width="1"/>
+    <text x="580" y="113" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#000000" text-anchor="middle">curriculum.py</text>
 
-    <rect x="490" y="130" width="180" height="30" rx="5" ry="5" fill="#e1bee7" stroke="#6a1b9a" stroke-width="1"/>
-    <text x="580" y="150" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#4a148c" text-anchor="middle">prompt.py</text>
+    <rect x="490" y="130" width="180" height="30" rx="5" ry="5" fill="#ffffff" stroke="#6a1b9a" stroke-width="1"/>
+    <text x="580" y="150" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#000000" text-anchor="middle">prompt.py</text>
 
-    <rect x="490" y="167" width="180" height="30" rx="5" ry="5" fill="#e1bee7" stroke="#6a1b9a" stroke-width="1"/>
-    <text x="580" y="187" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#4a148c" text-anchor="middle">rag.py</text>
+    <rect x="490" y="167" width="180" height="30" rx="5" ry="5" fill="#ffffff" stroke="#6a1b9a" stroke-width="1"/>
+    <text x="580" y="187" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#000000" text-anchor="middle">rag.py</text>
 
-    <rect x="490" y="204" width="180" height="30" rx="5" ry="5" fill="#e1bee7" stroke="#6a1b9a" stroke-width="1"/>
-    <text x="580" y="224" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#4a148c" text-anchor="middle">evaluation.py</text>
+    <rect x="490" y="204" width="180" height="30" rx="5" ry="5" fill="#ffffff" stroke="#6a1b9a" stroke-width="1"/>
+    <text x="580" y="224" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#000000" text-anchor="middle">evaluation.py</text>
 
-    <rect x="490" y="241" width="180" height="30" rx="5" ry="5" fill="#e1bee7" stroke="#6a1b9a" stroke-width="1"/>
-    <text x="580" y="261" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#4a148c" text-anchor="middle">memory.py</text>
+    <rect x="490" y="241" width="180" height="30" rx="5" ry="5" fill="#ffffff" stroke="#6a1b9a" stroke-width="1"/>
+    <text x="580" y="261" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#000000" text-anchor="middle">memory.py</text>
 
-    <rect x="490" y="278" width="180" height="30" rx="5" ry="5" fill="#e1bee7" stroke="#6a1b9a" stroke-width="1"/>
-    <text x="580" y="298" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#4a148c" text-anchor="middle">llm.py</text>
+    <rect x="490" y="278" width="180" height="30" rx="5" ry="5" fill="#ffffff" stroke="#6a1b9a" stroke-width="1"/>
+    <text x="580" y="298" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#000000" text-anchor="middle">llm.py</text>
 
-    <rect x="490" y="315" width="180" height="30" rx="5" ry="5" fill="#e1bee7" stroke="#6a1b9a" stroke-width="1"/>
-    <text x="580" y="335" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#4a148c" text-anchor="middle">tts.py · ingest.py</text>
+    <rect x="490" y="315" width="180" height="30" rx="5" ry="5" fill="#ffffff" stroke="#6a1b9a" stroke-width="1"/>
+    <text x="580" y="335" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#000000" text-anchor="middle">tts.py · ingest.py</text>
 
     <!-- ═══════════════ Persistence ═══════════════ -->
-    <rect x="730" y="0" width="185" height="370" rx="12" ry="12" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
-    <text x="822" y="22" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#2e7d32" text-anchor="middle">Persistence</text>
+    <rect x="730" y="0" width="185" height="370" rx="12" ry="12" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2"/>
+    <text x="822" y="22" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">Persistence</text>
 
     <!-- SQLite (aligned with rag/memory) -->
-    <rect x="750" y="172" width="160" height="50" rx="6" ry="6" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5"/>
-    <text x="830" y="193" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#1b5e20" text-anchor="middle">SQLite + FTS5</text>
-    <text x="830" y="211" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#2e7d32" text-anchor="middle">6,200+ chunks</text>
+    <rect x="750" y="172" width="160" height="50" rx="6" ry="6" fill="#ffffff" stroke="#2e7d32" stroke-width="1.5"/>
+    <text x="830" y="193" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#000000" text-anchor="middle">SQLite + FTS5</text>
+    <text x="830" y="211" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle">6,200+ chunks</text>
 
     <!-- Ollama (aligned with llm.py) -->
-    <rect x="750" y="268" width="160" height="50" rx="6" ry="6" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5"/>
-    <text x="830" y="289" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#1b5e20" text-anchor="middle">Ollama</text>
-    <text x="830" y="307" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#2e7d32" text-anchor="middle">qwen2.5:14b</text>
+    <rect x="750" y="268" width="160" height="50" rx="6" ry="6" fill="#ffffff" stroke="#2e7d32" stroke-width="1.5"/>
+    <text x="830" y="289" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#000000" text-anchor="middle">Ollama</text>
+    <text x="830" y="307" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#000000" text-anchor="middle">qwen2.5:14b</text>
 
     <!-- ═══════════════ Tutor → Persistence arrows ═══════════════ -->
     <!-- rag.py → SQLite -->
-    <line x1="670" y1="182" x2="748" y2="192" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+    <line x1="670" y1="182" x2="748" y2="192" stroke="#607d8b" stroke-width="1.5" marker-end="url(#arrowGray)"/>
     <!-- memory.py → SQLite -->
-    <line x1="670" y1="256" x2="748" y2="205" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+    <line x1="670" y1="256" x2="748" y2="205" stroke="#607d8b" stroke-width="1.5" marker-end="url(#arrowGray)"/>
     <!-- llm.py → Ollama -->
-    <line x1="670" y1="293" x2="748" y2="293" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+    <line x1="670" y1="293" x2="748" y2="293" stroke="#607d8b" stroke-width="1.5" marker-end="url(#arrowGray)"/>
   </g>
 </svg>
