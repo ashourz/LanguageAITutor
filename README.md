@@ -27,6 +27,35 @@ An adaptive language tutor that teaches through code-switched conversation — t
 
 ![Data Flow](diagrams/dataflow.drawio.svg)
 
+### App Screenshots
+
+<table>
+    <tr>
+        <td align="center"><img src="screenshots/splash_light_mode.png" alt="Splash Light" width="145"><br><sub>Splash (Light)</sub></td>
+        <td align="center"><img src="screenshots/splash_dark_mode.png" alt="Splash Dark" width="145"><br><sub>Splash (Dark)</sub></td>
+        <td align="center"><img src="screenshots/empty_chat_light.png" alt="Empty Chat Light" width="145"><br><sub>Chat Empty (Light)</sub></td>
+        <td align="center"><img src="screenshots/empty_chat_dark.png" alt="Empty Chat Dark" width="145"><br><sub>Chat Empty (Dark)</sub></td>
+    </tr>
+    <tr>
+        <td align="center"><img src="screenshots/filled_chat_light_mode.png" alt="Filled Chat Light" width="145"><br><sub>Chat Filled (Light)</sub></td>
+        <td align="center"><img src="screenshots/filled_chat_dark_mode.png" alt="Filled Chat Dark" width="145"><br><sub>Chat Filled (Dark)</sub></td>
+        <td align="center"><img src="screenshots/server_error_chat_light.png" alt="Server Error Chat Light" width="145"><br><sub>Chat Error (Light)</sub></td>
+        <td align="center"><img src="screenshots/server_error_chat_dark.png" alt="Server Error Chat Dark" width="145"><br><sub>Chat Error (Dark)</sub></td>
+    </tr>
+    <tr>
+        <td align="center"><img src="screenshots/settings_top_light.png" alt="Settings Top Light" width="145"><br><sub>Settings Top (Light)</sub></td>
+        <td align="center"><img src="screenshots/settings_top_dark.png" alt="Settings Top Dark" width="145"><br><sub>Settings Top (Dark)</sub></td>
+        <td align="center"><img src="screenshots/progress_top_light.png" alt="Progress Top Light" width="145"><br><sub>Progress Top (Light)</sub></td>
+        <td align="center"><img src="screenshots/progress_top_dark.png" alt="Progress Top Dark" width="145"><br><sub>Progress Top (Dark)</sub></td>
+    </tr>
+    <tr>
+        <td align="center"><img src="screenshots/progress_bottom_light.png" alt="Progress Bottom Light" width="145"><br><sub>Progress Bottom (Light)</sub></td>
+        <td align="center"><img src="screenshots/progress_bottom_dark.png" alt="Progress Bottom Dark" width="145"><br><sub>Progress Bottom (Dark)</sub></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
 ---
 
 ## Key Modules
